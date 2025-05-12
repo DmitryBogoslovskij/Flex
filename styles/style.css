@@ -19,12 +19,9 @@ body {
 }
 
 .image {
-  
   max-width: 106px;
   max-height: 37px;
-  
   display: flex;
-
 }
 
 .image1 img {
@@ -37,12 +34,39 @@ body {
 
 .image2 img {
   margin: 8px auto auto 7px;
-  
   max-width: 65px;
-  
-  
 }
 
+a {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.box3 {
+  width: 139;
+  height: 36;
+  background: #0070A0;
+  padding-bottom: 10 px;
+}
+
+
+
+.button1 {
+  color: #33383F;
+  text-decoration: none;
+}
+
+.button2 {
+  color: #0070A0;
+  text-decoration: none;
+}
+
+.button3 {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .features-container2 {
   max-width: 1000px;
   margin: 0 auto;
