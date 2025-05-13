@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   padding: 40px 20px;
   color: #333;
@@ -23,7 +23,7 @@ body {
 }
 
 .image1 {
-  margin: 0.5px 0 0 0;
+  margin: 0.5px 0 0;
   min-width: 30px;
   max-width: 30px;
   max-height: 34px;
@@ -36,30 +36,30 @@ body {
 }
 
 .image3 {
-  padding: 8px 0px 0px 7px;
+  padding: 8px 0 0 7px;
 }
 
 .image4 {
-  padding: 0px 0px 0px 0px;
+  padding: 0;
 }
 
 .container1 {
   display: flex;
   gap: 30px;
-  margin: 3px 0px 0px 40px;
+  margin: 3px 0 0 40px;
   flex-wrap: wrap;
 }
 
 .container2 {
   display: flex;
   gap: 30px;
-  margin: 3px 0px 0px auto;
+  margin: 3px 0 0 auto;
   flex-wrap: wrap;
 }
 
 .container3 {
   display: flex;
-  margin: 0px 0px 0px auto;
+  margin: 0 0 0 auto;
   flex-wrap: wrap;
 }
 
@@ -77,17 +77,17 @@ a {
 }
 
 .box1 {
-  padding: 6px 0px 8px 0px;
+  padding: 6px 0 8px;
 }
 
 .box2 {
   background: #0070A0;
-  padding: 6px 28px 8px 28px;
+  padding: 6px 28px 8px;
 }
 
 .box3 {
   background: #0070A0;
-  padding: 6px 28px 8px 28px;
+  padding: 6px 28px 8px;
 }
 
 .button1 {
@@ -101,14 +101,14 @@ a {
 }
 
 .button3 {
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none;
 }
 
 .button4 {
   color: #0070A0;
   text-decoration: none;
-  padding: 6px 0px 8px 28px;
+  padding: 6px 0 8px 28px;
 }
 
 .features-container2 {
@@ -139,7 +139,7 @@ a {
   background: #FAEA73;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 5%);
 }
 
 .feature2 {
@@ -147,8 +147,8 @@ a {
   min-width: 280px;
   background: #CCEFF6;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-radius: 8 px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 5%);
 }
 
 .feature3 {
@@ -157,7 +157,7 @@ a {
   background: #F7CEDC;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 5%);
 }
 
 .feature4 {
@@ -171,7 +171,7 @@ a {
   font-size: 58px;
   line-height: 63.8px;
   letter-spacing: 0.2px;
-  padding: 27px 0px 0px 0px;
+  padding: 27px 0 0;
 }
 
 .feature-title2 {
@@ -196,7 +196,7 @@ a {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  padding: 12px 0px 20px 0px;  
+  padding: 12px 0 20px;  
 }
 
 .feature-text2 {
