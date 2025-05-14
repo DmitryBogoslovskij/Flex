@@ -78,6 +78,7 @@ a {
 
 .box1 {
   padding: 6px 0 8px;
+  margin: auto;
 }
 
 .box2 {
@@ -162,6 +163,7 @@ a {
 
 .feature4 {
   flex: 1;
+  margin: auto;
   max-width: 451.99px;
 }
 
