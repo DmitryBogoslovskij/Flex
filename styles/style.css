@@ -11,6 +11,7 @@ body {
 
 .features-container1 {
   max-width: 1000px;
+  min-width: 280px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +41,9 @@ body {
 }
 
 .image4 {
-  padding: 0;
+  max-width: 100%; 
+  height: auto;    
+  display: block; 
 }
 
 .container1 {
@@ -114,6 +117,7 @@ a {
 
 .features-container2 {
   max-width: 1000px;
+  min-width: 280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -123,6 +127,7 @@ a {
 
 .features-container3 {
   max-width: 1000px;
+  min-width: 280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -162,9 +167,7 @@ a {
 }
 
 .feature4 {
-  flex: 1;
   margin: auto;
-  max-width: 451.99px;
 }
 
 .feature-title1 {
