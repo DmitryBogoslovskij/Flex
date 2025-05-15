@@ -4,9 +4,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
   padding: 40px 20px;
   color: #333;
+}
+
+.features-container {
+  min-width: 280px;
+  margin: 120px auto 15px;
 }
 
 .features-container1 {
@@ -17,25 +21,16 @@ body {
   flex-wrap: wrap;
 }
 
-
-
 .image {
-  max-width: 106px;
-  max-height: 37px;
   display: flex;
 }
 
 .image1 {
   margin: 0.5px 0 0;
-  min-width: 30px;
-  max-width: 30px;
-  max-height: 34px;
-  min-height: 34px;
 }
 
 .image2 {
   margin: 8px auto auto 7px;
-  max-width: 65px;
 }
 
 .image3 {
@@ -64,7 +59,6 @@ body {
 
 .container3 {
   display: flex;
-  margin: 0 0 0 auto;
   flex-wrap: wrap;
 }
 
@@ -128,6 +122,16 @@ a {
 }
 
 .features-container3 {
+  max-width: 1000px;
+  min-width: 280px;
+  margin: 15px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.features-container4 {
   max-width: 1000px;
   min-width: 280px;
   margin: 0 auto;
@@ -195,6 +199,15 @@ a {
   height: 3px;
   background: #3498db;
   margin-top: 8px;
+}
+
+.feature-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37.5px;
+  letter-spacing: 0.2px;
+  text-align: center;
 }
 
 .feature-text1 {
